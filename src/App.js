@@ -1,4 +1,5 @@
 import DataTable from './components/Datatable';
+import ThumbsUI from './components/ThumbsUI';
 import './App.css';
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
         User Data
       </h1>
       <DataTable />
+      <h2>Thumbs UI</h2>
+      <ThumbsUI />
+
     </div>
   );
 }
